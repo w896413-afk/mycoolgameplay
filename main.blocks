@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="F1l?}wDC1]nd6u4]yOsT">mySprite</variable><variable id="+MP1u!2~p$*Kh2^%x614">projectile</variable><variable type="KIND_SpriteKind" id=")djJ2$CV*5Z+*46rtxVO">Player</variable><variable type="KIND_SpriteKind" id="?%Ss|-F0qDIx!MsjPHh?">Projectile</variable><variable type="KIND_SpriteKind" id="HS`.u16!HV^.jK9b2:f*">Food</variable><variable type="KIND_SpriteKind" id="cJ?P1d0^i+=D|Tm8/TaD">Enemy</variable></variables><block type="ctrlonbuttonevent" id="jwXDB%kujUhJ#OKs/Z4." x="0" y="0"><field name="controller">controller.player1</field><field name="button">ControllerButton.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="mp_setPlayerSprite" id="YDr]]=(:{S?G3be+s.m/"><value name="player"><shadow type="mp_playerSelector" id="jj|L%$$?GFtD/ROc4eDh"><field name="number">mp.PlayerNumber.One</field></shadow></value><value name="sprite"><shadow type="spritescreatenoset" id="u60,]L7||4s0gA-eiz~0"><value name="img"><shadow type="screen_image_picker" id="nDCh]y[b$;!he(x0.=/:"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . 2 2 2 2 2 2 2 . . . . . . . 
+. 2 2 2 2 2 2 9 9 2 . . . . . . 
+. 2 2 2 2 2 2 9 9 9 2 . . . . . 
+. 2 2 2 2 2 2 9 9 9 9 2 . . . . 
+. 2 2 2 2 2 2 9 9 9 2 . . . . . 
+. 2 2 2 2 2 2 9 9 2 . . . . . . 
+. . 2 2 2 2 2 2 2 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="jEzzQ}hRUaTDmdfw!:SM"><field name="MEMBER">Player</field></shadow></value></shadow></value><next><block type="mp_moveWithButtons" id="OyUN`5|Cup*ogye0Ui|Y"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="player"><shadow type="mp_playerSelector" id="JdQ!mJEn4Ig5OH`l-^]E"><field name="number">mp.PlayerNumber.One</field></shadow></value><value name="vx"><shadow type="spriteSpeedPicker" id="WD8F%#+-l)rs8{A*tkJ."><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="6~/(VVcz`2`3;_-m$l[q"><field name="speed">100</field></shadow></value></block></next></block></statement></block><block type="ctrlonbuttonevent" id="[l/`e22qYn/,]p{`~H.x" x="138" y="226"><field name="controller">controller.player2</field><field name="button">ControllerButton.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="mp_setPlayerSprite" id="BTLF.![s#q]tbn7^Kf_%"><value name="player"><shadow type="mp_playerSelector" id="N]c7mFNnKmK[s5PYK]I/"><field name="number">mp.PlayerNumber.Two</field></shadow></value><value name="sprite"><shadow type="spritescreatenoset" id="3biaGLY#8^=08!4mYx,G"><value name="img"><shadow type="screen_image_picker" id="o+{zVJ^`O9Ji~+!=v|:b"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . 8 8 8 8 8 8 8 . . . . . . . 
+. 8 8 8 8 8 8 9 9 8 . . . . . . 
+. 8 8 8 8 8 8 9 9 9 8 . . . . . 
+. 8 8 8 8 8 8 9 9 9 9 8 . . . . 
+. 8 8 8 8 8 8 9 9 9 8 . . . . . 
+. 8 8 8 8 8 8 9 9 8 . . . . . . 
+. . 8 8 8 8 8 8 8 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="bSW,Yd/g4@ei9jBDV*13"><field name="MEMBER">Player</field></shadow></value></shadow></value><next><block type="mp_moveWithButtons" id="A@k5w!C0(K`IcR)0WXHU"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="player"><shadow type="mp_playerSelector" id="vQh#l$*:wy8Bo5_RwTn|"><field name="number">mp.PlayerNumber.Two</field></shadow></value><value name="vx"><shadow type="spriteSpeedPicker" id="iQHu?xWJxk@Z.`^X!c%p"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="g~+W~@ioh7.zMSi1yaw9"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
